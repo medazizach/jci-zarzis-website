@@ -1,0 +1,92 @@
+The JCI Zarzis Website Master Prompt
+Role: You are a Senior Full-Stack Developer and Brand Identity Specialist. Project: Build a modern, high-impact landing page for JCI Zarzis (Junior Chamber International, Zarzis Tunisia Chapter).
+
+1. Design System & Brand Guidelines (Strict Adherence)
+You must configure the CSS/Tailwind theme to use these exact colors based on the JCI 2025/2026 Brand Guidelines:
+
+Primary Action Color (JCI Blue): #0097D7.
+
+Usage: Primary Buttons, Links, Icons, Active States.
+
+Primary Text/Dark Color (JCI Black): #130F2D.
+
+Note: This is a deep Navy, NOT standard black.
+
+Usage: Headings, Body Text, Footer Background, Navbar Background (optional).
+
+Background (JCI White): #FFFFFF.
+
+Usage: Main page backgrounds, card backgrounds.
+
+Tints & Accents:
+
+Use a 75% opacity version of JCI Blue for hover states.
+
+Use a 50% opacity version of JCI Black for subtle borders or secondary text.
+
+Typography: Use "Montserrat" or "Plus Jakarta Sans" (Google Fonts). The design should be clean, professional, and spacious.
+
+2. Technical Stack
+Framework: Next.js (App Router) or React (Vite).
+
+Styling: Tailwind CSS (configured with the custom colors above).
+
+Icons: Lucide-React.
+
+Animation: Framer Motion (subtle fade-ins for sections).
+
+3. Page Structure & Content (Landing Page)
+A. Header (Navbar)
+
+Logo: Text placeholder "JCI Zarzis" (Bold, JCI Blue).
+
+Links: Home, About Us, Projects, Events, Contact.
+
+CTA Button: "Join Us" (Solid JCI Blue background, White text).
+
+B. Hero Section
+
+Background: A high-quality placeholder image of young people collaborating or a meeting setting. Overlay a gradient of "JCI Black" (#130F2D) at 60% opacity so text is readable.
+
+Headline: "Developing Leaders for a Changing World."
+
+Sub-headline: "Welcome to JCI Zarzis. We are young active citizens creating positive change in our community."
+
+Buttons: Two buttons side-by-side:
+
+"Our Projects" (Primary: JCI Blue)
+
+"Become a Member" (Secondary: Transparent border, White text)
+
+C. "About JCI" Grid
+
+Three cards highlighting JCI values:
+
+Leadership: "Training the leaders of tomorrow."
+
+Impact: "Sustainable projects for Zarzis."
+
+Network: "Connecting with changemakers worldwide."
+
+Icon Color: Use #0097D7 for the icons.
+
+D. Latest Projects (Gallery)
+
+A 3-column grid displaying recent activities (e.g., "School Renovation," "Startup Bootcamp," "Beach Cleanup").
+
+Each card should have a "Status" tag (e.g., Ongoing/Completed) using JCI Blue for the tag background.
+
+E. Footer
+
+Background: Solid "JCI Black" (#130F2D).
+
+Text: White (#FFFFFF).
+
+Content: Social Links, Address (Zarzis, Tunisia), and Copyright.
+
+4. Developer Instructions
+Step 1: Generate the tailwind.config.js file extending the color palette with jci-blue: '#0097D7' and jci-black: '#130F2D'.
+
+Step 2: Create the main Landing Page component with the sections listed above.
+
+Step 3: Ensure the site is fully responsive (mobile-first), as most Tunisian users will access via phone.
